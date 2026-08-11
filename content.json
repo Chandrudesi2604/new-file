@@ -1,22 +1,26 @@
 [
   {
-    "id": "welcome-1",
     "type": "announcement",
     "title": "Welcome to College Connect",
-    "description": "Class announcements and study links will appear here.",
-    "category": "Other",
-    "link": "",
-    "important": false,
-    "date": "2026-08-11T10:00:00Z"
+    "description": "All important class announcements will be published here.",
+    "important": true
   },
   {
-    "id": "sample-1",
+    "type": "announcement",
+    "title": "Tomorrow's Class",
+    "description": "Tomorrow's class will begin at 9:00 AM.",
+    "important": false
+  },
+  {
     "type": "material",
-    "title": "Sample Class Notes",
-    "description": "Replace this with your actual study-material link.",
+    "title": "Python Class Notes",
     "category": "Class Notes",
-    "link": "https://example.com",
-    "important": false,
-    "date": "2026-08-11T10:00:00Z"
+    "link": "https://example.com"
+  },
+  {
+    "type": "material",
+    "title": "C Programming Presentation",
+    "category": "Presentations",
+    "link": "https://example.com"
   }
 ]
